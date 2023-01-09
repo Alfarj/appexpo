@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "kkaltor",
+    "name": "KALKULATOR",
     "slug": "kkaltor",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kalkulator.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "kalkulator.kkapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12fb9024-7388-44c6-87f4-2c7e766e1f3d"
+      }
     }
   }
 }
